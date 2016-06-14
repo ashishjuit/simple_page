@@ -20,7 +20,7 @@
     <!-- End of Navigation -->
     <div>
       <p>
-        <center><img src="http://placehold.it/1500x300" alt="My photo"></center>
+        <center><img src="http://placehold.it/1500ix300" alt="My photo"></center>
       </p>
     </div>
     <div>
@@ -34,6 +34,25 @@
         <h2><center>Education</center></h2>
         Bacon ipsum dolor amet shankle kielbasa aliqua ipsum capicola. Doner exercitation ea pork tenderloin ground round. Deserunt ut short ribs, culpa spare ribs swine fugiat pork chop meatloaf chuck est brisket ball tip laboris cupidatat. Corned beef reprehenderit boudin brisket sausage. Cillum pork chop pariatur swine, ea labore qui strip steak andouille beef ribs capicola salami alcatra aliquip.
       </p>
+    </div>
+    <div>
+      <form action="/about" method = 'POST'>
+        <h3>Request More Information</h3>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name='name' required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name='email' required>
+        <br>
+        <label for="address">Address:</label>
+        <textarea name="address" cols="30" rows="10" required></textarea>
+        <br>
+        <label for="tel">Telephone:</label>
+        <input type="tel" name='tel' required>
+        <br>
+        <input type="submit" value='Send'>
+      </form>
     </div>
   </body>
 </html>
